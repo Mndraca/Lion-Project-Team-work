@@ -1,49 +1,106 @@
-html, body {
-    width: auto; 
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} 
-
-.top-img{
-    width: 100%;
+html,
+body {
+  width: auto;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-#logo{
-    position: absolute;
-   top: 2%;
-   left: 9%;
-   width: 140px;
-   height: 72px;
-   
+
+.top-img {
+  width: 100%;
+}
+#logo {
+  position: absolute;
+  top: 2%;
+  left: 9%;
+  width: 140px;
+  height: 72px;
 }
 .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    top: 2%;
-    left: 7%;
-    position: absolute;
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    
-   
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  top: 2%;
+  left: 7%;
+  position: absolute;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
-ul.menu{
-    width: 60%;
-    margin-left: 10%;
-    margin-right: 10%;
-   
-  
-    
+ul.menu {
+  width: 60%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+li.menu-item {
+}
+ul {
+  list-style-type: none;
 }
 
-
-li.menu-item{
-    
-
+/* I started from here*/
+#row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-between;
 }
-ul{
-list-style-type: none;
+.solutions1 {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.solutions2 {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+#solutions {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  width: 30%;
+  padding-top: 5%;
+}
+#parent {
+  background-color: #f0f0f0;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 6%;
+  padding-right: 6%;
+  background: linear-gradient(#f0f0f0 50%, #fdfeff 50%);
+}
+#img1 {
+  padding-right: 40px;
+}
+#img2 {
+  padding-top: 70px;
+}
+.behaviors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 8%;
+  margin-right: 6%;
+}
+#behavior1 {
+  margin-top: 70px;
+  width: 40%;
+}
+#diet {
+  margin-top: 70px;
+  width: 40%;
+}
+.habitats {
+  background-color: #088f8f;
+  color: white;
+  height: 400px;
+}
+#hr {
+  width: 50%;
 }
