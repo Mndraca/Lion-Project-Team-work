@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lion African Wildlife Foundation</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Oxygen&family=Oxygen+Mono&family=Playfair+Display&display=swap");
       </style>
@@ -28,7 +29,7 @@
         <div class="lion">LION</div>
         <div class="link">
             <a href="">
-            Wildlife Conservation Lion</a>
+            Wildlife Conservation / Lion</a>
         </div>
     </div>
     <div class="nav2">
@@ -62,14 +63,14 @@
         <p></p>
         
     </div>
-    <div>
-        <div>
-          <h1>Solutions</h1>
-          <h3>Here's how we're protecting Africa's largest cat from extinction:</h3>
-        </div>
-        <div>
-          <div>
-            <h3>Mitigate human-wildlife conflict.</h3>
+    <div id="parent">
+      <div id="solutions">
+        <h1>Solutions</h1>
+        <h4>Here's how we're protecting Africa's largest cat from extinction:</h4>
+      </div>
+      <div id="row">
+          <div class="solutions1">
+            <h4>Mitigate human-wildlife conflict.</h4>
             <p>
               Retaliation is the primary reason people kill this big cat. We work
               with communities to help them realize the big cat's value and to help
@@ -84,8 +85,9 @@
               demonstrate success in living peacefully with carnivores.
             </p>
           </div>
-          <div>
-            <h3>Use scientific research and data.</h3>
+        
+          <div class="solutions2">
+            <h4>Use scientific research and data.</h4>
             <p>
               African Wildlife Foundation's researchers are working to gain an
               understanding of carnivores' populations, behaviors, movements, and
@@ -107,7 +109,7 @@
               livestock. As a result of AWF and community efforts, there has not
               been a single retaliatory killing in the landscape since March 2018.
             </p>
-            <h3>Tracking cats for conservation</h3>
+            <h4>Tracking cats for conservation</h4>
             <p>
               With the continental population decreasing and threats continuing to
               mount, it's become more important than ever to closely track this
@@ -119,20 +121,26 @@
               interactions, and ultimately population estimates.
             </p>
           </div>
-        </div>
       </div>
-      <div>
-        <img
-          src="https://www.awf.org/sites/default/files/styles/vertical_image/public/2020-03/Website_SpeciesPage_Lion03_01_Solutions.jpg?h=3c6d87fa&itok=M1gmb6aH"
+    </div>
+      <div class="images">
+        <img id="img1"
+          src="https://www.awf.org/sites/default/files/styles/vertical_image/public/2020-03/Website_SpeciesPage_Lion03_01_Solutions.jpg?h=3c6d87fa&itok=M1gmb6aH" 
+          width="530"
+          height="600"
         />
-        <img
+        <img id="img2"
           src="https://www.awf.org/sites/default/files/styles/horizontal_image/public/2020-03/Website_SpeciesPage_Lion03_02_Solutions.jpg?h=05d4a2d9&itok=SzWIDgZC"
+          width="700"
+          height="600"
         />
       </div>
-      <div>
-        <div>
+      <div class="behaviors">
+        <div id="behavior1">
           <h1>Behaviors</h1>
           <h3>They are the most social cats.</h3>
+        <hr>
+        </hr>
           <p>
             While most cat species are solitary, this big cat is an exception. It
             has developed a social system based on teamwork, division of labor, and
@@ -142,12 +150,16 @@
             formed a coalition to protect their females.
           </p>
           <h3>They are affectionate.</h3>
+          <hr>
+        </hr>
           <p>
             When resting, which may be up to 20 hours a day, these cats seem to
             enjoy good fellowship with lots of touching, head rubbing, licking, and
             purring.
           </p>
           <h3>Their parenting styles are wildly different.</h3>
+          <hr>
+        </hr>
           <p>
             Usually, two or more females in a pride give birth around the same time,
             and the cubs are raised together. Some mothers carefully nurture their
@@ -156,9 +168,11 @@
             also neglect or abandon her cubs, especially if food is scarce.
           </p>
         </div>
-        <div>
+        <div id="diet">
           <h1>Diet</h1>
           <h3>African lions are both hunters and scavengers.</h3>
+          <hr>
+        </hr>
           <p>
             Antelope, zebra, and wildebeests are common prey for this big cat.
             However, scavenged food provides more than 50 percent of their
@@ -172,9 +186,11 @@
           </p>
         </div>
       </div>
-      <div>
+      <div class="habitats">
         <h1>Habitats</h1>
         <h3>Where are lion habitats found?</h3>
+        <hr id="hr">
+        </hr>
         <p>
           Africa's largest cat can be found in savanna, plains, grassland, dense
           bush, and woodland habitats.
