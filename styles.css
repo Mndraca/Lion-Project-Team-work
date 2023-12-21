@@ -138,6 +138,24 @@ div.numbers{
     margin-left: 10%;
     margin-top: 7%;
 }
+div.statistic{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+div.text2{
+    width: 80%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4B3E36;
+}
+h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 26px;
+
+}
 /* I started from here*/
 #row {
   display: flex;
