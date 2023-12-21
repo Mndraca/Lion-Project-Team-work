@@ -133,6 +133,7 @@ div.numbers{
     position: absolute;
     margin-top: 4%;
     margin-left: 7%;
+    justify-content: space-between;
 }
 .lion-img{
     margin-left: 10%;
@@ -142,18 +143,36 @@ div.statistic{
     display: flex;
     flex-direction: row;
     margin-bottom: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 div.text2{
     width: 80%;
     margin-left: 7%;
     margin-right: 7%;
-    margin-top: 10%;
+    margin-top: 7%;
     font-family: Arial, Helvetica, sans-serif;
     color: #4B3E36;
 }
 h2{
     font-family:'Times New Roman', Times, serif;
     font-size: 26px;
+    
+}
+h6{
+    text-align: center;
+    color: #f0f0f0;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+h5 {
+    font-size: 65px;
+    color: #E97200;
+   margin: 0;
+   text-align: center;
 
 }
 /* I started from here*/
