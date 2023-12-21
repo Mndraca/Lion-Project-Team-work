@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  top: 2%;
+  top: 5%;
   left: 7%;
   position: absolute;
   font-size: 13px;
@@ -29,7 +29,7 @@ body {
   color: white;
 }
 ul.menu {
-  width: 60%;
+  width: 50%;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -37,8 +37,52 @@ li.menu-item {
 }
 ul {
   list-style-type: none;
+ 
 }
+a {
+    text-decoration: none;
+    color: #f0f0f0;
+}
+.search{
+    position: absolute;
+  top: 7%;
+  right: 25%;
+  color: #f0f0f0;
+ 
 
+}
+.donate{
+    border: 1px solid #E97200;
+    background: #E97200;
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fdfeff;
+    padding-left: 13px;
+    padding-top: 15px;
+}
+.lion{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    font-size: 70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.link{
+    position: absolute;
+    bottom: 8%;
+    left: 10%;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
 /* I started from here*/
 #row {
   display: flex;
