@@ -85,7 +85,7 @@ a {
 }
 div.nav2{
     border: 1px solid #4B3E46;
-    background: #4B3E46;
+    background: #4B3E36;
     width: 100%;
     height: 45px;
     padding-top: 0%;
@@ -104,8 +104,40 @@ ul.menu2 {
     font-size: 12px;
 
 }
-
-
+div.text{
+    text-align: center;
+    font-size: 18px;
+    color: #4B3E36;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.african{
+    margin-top: 10%;
+    font-size: 16px;
+}
+div.table{
+    border: 1px solid grey;
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+div.numbers{
+    border:1px solid #4B3E46;
+    background: #4B3E36;
+    width: 15%;
+    height: 70%;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 7%;
+}
+.lion-img{
+    margin-left: 10%;
+    margin-top: 7%;
+}
 /* I started from here*/
 #row {
   display: flex;
