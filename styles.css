@@ -249,4 +249,6 @@ hr{
   width: 50%;
 
 }
-
+h1, h3, p{
+    text-align: center;
+}
