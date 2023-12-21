@@ -144,7 +144,7 @@ div.statistic{
     flex-direction: row;
     margin-bottom: 10%;
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
     padding-left: 3%;
     padding-right: 3%;
 }
@@ -155,10 +155,12 @@ div.text2{
     margin-top: 7%;
     font-family: Arial, Helvetica, sans-serif;
     color: #4B3E36;
+    
 }
 h2{
     font-family:'Times New Roman', Times, serif;
     font-size: 26px;
+    
     
 }
 h6{
@@ -167,13 +169,19 @@ h6{
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    padding: 4%;
 }
 h5 {
     font-size: 65px;
     color: #E97200;
    margin: 0;
    text-align: center;
+   padding: 4%;
 
+}
+hr{
+    margin-left: 8%;
+    margin-right: 8%;
 }
 /* I started from here*/
 #row {
