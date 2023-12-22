@@ -419,6 +419,7 @@ li {
 }
 #wildlife {
   color: #e97200;
+  padding-left: 5px;
 }
 #footer-links .all-li {
   color: black;
@@ -432,9 +433,29 @@ li {
 #links-last {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   margin-left: 10%;
-  width: 40%;
+  width: 100%;
+  
+
 }
-.footer-last {
+div#footer-last {
+  padding: 20px;
+  justify-content: space-around;
+}
+li.footer-last{
+  font-size: 13px;
+  padding: 5px;
+  color: #4b3e36;
+}
+ul#last{
+  display: flex;
+  flex-direction: row;
+}
+img.last{
   padding: 10px;
+}
+p.bottom{
+  font-size: 16px;
+  text-align: center;
 }
