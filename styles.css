@@ -206,16 +206,13 @@ div.colom1{
 .item1{
     width: 30%;
     color: red;
-    padding-left: 2%;
     font-size: 13px;
-    margin-top: 4%;
+    float:right;
+    margin-left: 2%;
 }
 div.item2{
-    width: 95%;
-    text-align: end;
-    margin-left: 2%;
-    padding-right: 2%;
-    margin-top: 1%;
+    width: 70%;
+   float:left;
     font-size: 13px;
     
 }
