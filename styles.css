@@ -494,17 +494,18 @@ p.bottom{
   }
   div.lion-img{
     margin-top: 400px;
+    width: 85%;
+   
    
   }
-  div.text2{
-
-
-   
-  }
+  
   div.statistic{
     display: flex;
     flex-direction: column;
   }
-
+div.text2{
+ padding: 0;
+ margin-left: 22px;
+}
  
 }
