@@ -127,7 +127,6 @@ li.menu-item {
 }
 
 div.table {
-  border: 1px solid grey;
   width: 80%;
   height: 200px;
   margin-left: 10%;
@@ -151,6 +150,7 @@ div.numbers {
 .lion-img {
   margin-left: 10%;
   margin-top: 7%;
+  width: 100%;
 }
 div.statistic {
   display: flex;
@@ -458,4 +458,53 @@ img.last{
 p.bottom{
   font-size: 16px;
   text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  ul.menu  {
+    display: none;
+    
+  }
+}
+@media only screen and (max-width: 600px) {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  ul.menu2{
+    justify-content: space-around;
+  }
+  li{
+    padding: 5%;
+    text-align: center;
+    
+  }
+  div.text{
+    margin: 10px;
+  }
+  div.table{
+    display: flex;
+    flex-flow: column;
+  }
+  div.colom1{
+    flex-wrap: wrap;
+  }
+  div.numbers{
+    display: none;
+  }
+  div.lion-img{
+    margin-top: 400px;
+   
+  }
+  div.text2{
+
+
+   
+  }
+  div.statistic{
+    display: flex;
+    flex-direction: column;
+  }
+
+ 
 }
