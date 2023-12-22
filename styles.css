@@ -34,12 +34,24 @@ ul.menu {
   margin-left: 10%;
   margin-right: 10%;
 } 
-.search{
+li {
+  text-decoration: none;
+}
+h1.lion-text{
+  font-size: 15px;
+  margin-top: 8%;
+}
+.search {
   position: absolute;
   top: 7%;
   right: 25%;
-  color: #f0f0f0;
 }
+a.link-color{
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+
 .donate {
   border: 1px solid #e97200;
   background: #e97200;
@@ -105,6 +117,11 @@ div.text {
 p.top {
   text-align: start;
 }
+li.menu-item{
+  color: white;
+  text-decoration: none;
+
+}
 
 div.table {
   border: 1px solid grey;
@@ -114,7 +131,10 @@ div.table {
   margin-right: 10%;
   margin-bottom: 5%;
   margin-top: 5%;
+  display: flex;
+  flex-direction: row;
 }
+
 div.numbers {
   border: 1px solid #4b3e46;
   background: #4b3e36;
@@ -169,32 +189,30 @@ hr {
   margin-left: 8%;
   margin-right: 8%;
 }
-div.item{
+.item{
     border: 1px solid grey;
     width: 100%;
     height: 65px;
 }
 div.colom1{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     width: 100%;
-    margin: 0%;
-    padding: 0%;
+   
 }
 .item1{
-    width: 95%;
+    width: 30%;
     color: red;
     padding-left: 2%;
-    margin-right: 50%;
     font-size: 13px;
     margin-top: 4%;
 }
 div.item2{
     width: 95%;
-    padding-right: 0%;
-    margin-right: 0%;
-    padding-bottom: 4%;
     text-align: end;
+    margin-left: 2%;
+    padding-right: 2%;
+    margin-top: 1%;
     font-size: 13px;
     
 }
@@ -316,11 +334,17 @@ h4.pic {
 }
 h2.title-awf {
   color: #e97200;
+  font-size: 18px;
+}
+h4.title-awf {
+  color: black;
+  font-size: 16px;
 }
 #stories {
   text-align: left;
   color: #e97200;
   margin-top: 40%;
+  width: 40%;
 }
 .img-zoom {
   transition: transform 0.1s;
@@ -328,4 +352,7 @@ h2.title-awf {
 .img-zoom:hover {
   transform: scale(1.1);
   transition-timing-function: ease-in-out;
+}
+button.now{
+  margin-left: 45%;
 }
