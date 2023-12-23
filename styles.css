@@ -521,8 +521,68 @@ div#row {
   div#solutions{
     width: 80%;
   }
+  div.solutions2 {
   
-  
-
+    width: 90%;
  
+  }
+  div.images{
+    display: flex;
+    flex-direction: column;
+  }
+  img#img1{
+    width: 90%;
+    height: auto;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+  img#img2{
+    width: 90%;
+    height: auto;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+  img.top-img{
+     float:right;
+  }
+  div.behaviors{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  div#behavior1{
+    width: 90%;
+    margin-top: 5px;
+
+  }
+  div#diet{
+    width: 90%;
+    margin-top: 5px;
+  }
+  h3#habi {
+    margin-top: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+   
+  }
+  hr#hr{
+    margin-top: 20%;
+  }
+  h1#haby{
+    padding-top: 10%;
+  }
+  h1.pic{
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  h4.pic{
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  button.now{
+    margin-left: 135px;
+  }
+  div.work{
+    width: 90%;
+  }
 }
