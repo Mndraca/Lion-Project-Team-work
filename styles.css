@@ -584,5 +584,50 @@ div#row {
   }
   div.work{
     width: 90%;
+    margin-left: 25px;
+  }
+  div.awf-box{
+    display: flex;
+    flex-direction: column;
+  }
+  div.awf{
+    width: 90%;
+  }
+  button#stories{
+    margin-top: 2px;
+    margin-left: 135px;
+  }
+  img.img-zoom{
+    width: 100%;
+    margin-left: 8px;
+  }
+  button#donate{
+    display: none;
+  }
+  h3#gift{
+    margin-left: 23px;
+  }
+  h3#wildlife{
+    display: none;
+  }
+  ul#footer-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  ul#social-media{
+    margin-top: 220px;
+    width: 60%;
+    padding: 0;
+  }
+  div#footer-last{
+    display: flex;
+    flex-direction: column;
+  }
+  ul#last{
+   margin-left: 10px;
+   margin-right: 10px;
+   padding: 0;
+    
   }
 }
