@@ -509,5 +509,20 @@ div.text2{
  padding: 0;
  margin-left: 22px;
 }
+div#row {
+  display: flex;
+  flex-direction: column;
+}
+  div.solutions1 {
+  
+    width: 90%;
+ 
+  }
+  div#solutions{
+    width: 80%;
+  }
+  
+  
+
  
 }
