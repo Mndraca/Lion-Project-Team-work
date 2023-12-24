@@ -540,7 +540,7 @@ div.all {
   }
   .top-img {
     float: left;
-   margin-left: 535px;
+    margin-left: 535px;
   }
 
   div.statistic {
@@ -705,5 +705,9 @@ div.all {
     margin-left: 10px;
     margin-right: 10px;
     padding: 0;
+  }
+  #lion-text2 {
+    margin-left: 7%;
+    margin-right: 7%;
   }
 }
