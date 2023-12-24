@@ -550,6 +550,7 @@ div.all {
   div.text2 {
     padding: 0;
     margin-left: 22px;
+    margin-top: 20%;
   }
   div#row {
     display: flex;
@@ -713,4 +714,5 @@ div.all {
   div#vul.item2{
     margin-left: 10%;
   }
+  
 }
