@@ -714,5 +714,23 @@ div.all {
   div#vul.item2{
     margin-left: 10%;
   }
+  div#vul2.item2{
+    width: 300px;
+    margin-left: 5%;
+    
+  }
+  div#vul1.item1{
+    width: 35px;
   
+  }
+  div#vul3.item2{
+    margin-right: 50%;
+  }
+  div#vul4.item2{
+    margin-right: 8%;
+  }
+  div#vul5.item2{
+    margin-right: 8%;
+  }
+
 }
