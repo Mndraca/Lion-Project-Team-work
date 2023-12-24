@@ -139,10 +139,11 @@ div.numbers {
   border: 1px solid #4b3e46;
   background: #4b3e36;
   width: 15%;
-  height: 70%;
+  height: 55%;
   position: absolute;
   margin-top: 4%;
   margin-left: 7%;
+  padding-top: 5%;
   justify-content: space-between;
 }
 .lion-img {
@@ -174,17 +175,17 @@ h2 {
 h6 {
   text-align: center;
   color: #f0f0f0;
-  font-size: 11px;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 4%;
 }
 h5 {
-  font-size: 65px;
   color: #e97200;
   margin: 0;
   text-align: center;
   padding: 4%;
+  font-size: 30px;
 }
 hr {
   margin-left: 8%;
@@ -711,26 +712,48 @@ div.all {
     margin-left: 7%;
     margin-right: 7%;
   }
-  div#vul.item2{
+  div#vul.item2 {
     margin-left: 10%;
   }
-  div#vul2.item2{
+  div#vul2.item2 {
     width: 300px;
     margin-left: 5%;
-    
   }
-  div#vul1.item1{
+  div#vul1.item1 {
     width: 35px;
-  
   }
-  div#vul3.item2{
+  div#vul3.item2 {
     margin-right: 50%;
   }
-  div#vul4.item2{
+  div#vul4.item2 {
     margin-right: 8%;
   }
-  div#vul5.item2{
+  div#vul5.item2 {
     margin-right: 8%;
   }
-
+}
+@media only screen and (max-width: 600px) {
+  div.numbers {
+    height: 50%;
+    margin-top: 120%;
+  }
+  h5,
+  h6 {
+    font-size: small;
+  }
+  .item1 {
+    margin-right: 40px;
+  }
+  .item2 {
+    display: flex;
+    width: 50%;
+  }
+  div#vul2.item2 {
+    width: 60%;
+    margin-left: 10%;
+  }
+  div#vul3.item2 {
+    width: 60%;
+    margin-left: 15%;
+  }
 }
